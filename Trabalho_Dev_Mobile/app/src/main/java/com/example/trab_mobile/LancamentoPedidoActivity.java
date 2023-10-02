@@ -216,7 +216,7 @@ public class LancamentoPedidoActivity extends AppCompatActivity {
             tvValorTotal.setText("");
             tvQuantidadeTotal.setText("");
             tvValorUnitario.setText("");
-            edCodigoPedido.setHint("Código:" + Controller.getInstance().retornPedidos().size());
+            edCodigoPedido.setHint("Código:" + (Controller.getInstance().retornPedidos().size()));
         }
 
         
